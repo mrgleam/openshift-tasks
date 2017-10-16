@@ -193,6 +193,11 @@ See suppressed-cves.xml -->
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
 				<version>3.0.0</version>
+				<configuration>
+					<!-- Skip artifacts not bundled in distribution (provided scope) -->
+					<skipProvidedScope>true</skipProvidedScope>
+					<format>XML</format>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
