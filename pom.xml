@@ -48,6 +48,8 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<dependency-check-format>HTML</dependency-check-format>
+		<dependency-check-failBuildOnCVSS>11</dependency-check-failBuildOnCVSS>
+		<dependency-check-failBuildOnAnyVulnerability>false</dependency-check-failBuildOnAnyVulnerability>
 	</properties>
 
 	<repositories>
@@ -204,7 +206,8 @@ See suppressed-cves.xml -->
 						<!-- <suppressionFiles>
 								<suppressionFile>suppressed-cves.xml</suppressionFile>
 						</suppressionFiles> -->
-						<failBuildOnAnyVulnerability>true</failBuildOnAnyVulnerability>
+						<failBuildOnCVSS>${dependency-check-dependency-check-failBuildOnCVSS}</failBuildOnCVSS>
+						<failBuildOnAnyVulnerability>${dependency-check-failBuildOnAnyVulnerability}</failBuildOnAnyVulnerability>
 						<format>${dependency-check-format}</format>
 				</configuration>
 				<executions>
