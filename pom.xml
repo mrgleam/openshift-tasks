@@ -206,7 +206,7 @@ See suppressed-cves.xml -->
 						<!-- <suppressionFiles>
 								<suppressionFile>suppressed-cves.xml</suppressionFile>
 						</suppressionFiles> -->
-						<failBuildOnCVSS>${dependency-check-dependency-check-failBuildOnCVSS}</failBuildOnCVSS>
+						<failBuildOnCVSS>${dependency-check-failBuildOnCVSS}</failBuildOnCVSS>
 						<failBuildOnAnyVulnerability>${dependency-check-failBuildOnAnyVulnerability}</failBuildOnAnyVulnerability>
 						<format>${dependency-check-format}</format>
 				</configuration>
