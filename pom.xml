@@ -107,6 +107,12 @@
 	</dependencyManagement>
 
 	<dependencies>
+		<!-- This dependency contains CVE-2014-0114 which will be reported -->
+    <dependency>
+		  <groupId>commons-beanutils</groupId>
+		  <artifactId>commons-beanutils</artifactId>
+		  <version>1.8.0</version>
+    </dependency>
 		<!-- This dependency contains CVE-2016-3720, which can be considered
 a false positive: https://github.com/jeremylong/DependencyCheck/issues/517
 See suppressed-cves.xml -->
