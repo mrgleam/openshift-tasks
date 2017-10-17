@@ -204,6 +204,7 @@ See suppressed-cves.xml -->
 						<!-- <suppressionFiles>
 								<suppressionFile>suppressed-cves.xml</suppressionFile>
 						</suppressionFiles> -->
+						<failBuildOnAnyVulnerability>true</failBuildOnAnyVulnerability>
 						<format>${dependency-check-format}</format>
 				</configuration>
 				<executions>
