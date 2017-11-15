@@ -201,7 +201,7 @@ See suppressed-cves.xml -->
 			<plugin>
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
-				<version>3.0.0</version>
+				<version>3.0.2</version>
 				<configuration>
 						<!-- <suppressionFiles>
 								<suppressionFile>suppressed-cves.xml</suppressionFile>
