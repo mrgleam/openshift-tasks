@@ -50,7 +50,7 @@
 		<dependency-check-format>HTML</dependency-check-format>
 		<dependency-check-failBuildOnCVSS>8</dependency-check-failBuildOnCVSS>
 		<dependency-check-failBuildOnAnyVulnerability>false</dependency-check-failBuildOnAnyVulnerability>
-		<dependency-check-autoUpdate>false</dependency-check-autoUpdate>
+		<dependency-check-autoUpdate>true</dependency-check-autoUpdate>
 		<dependency-check-skip>false</dependency-check-skip>
 	</properties>
 
