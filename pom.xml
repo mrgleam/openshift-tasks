@@ -51,6 +51,7 @@
 		<dependency-check-failBuildOnCVSS>8</dependency-check-failBuildOnCVSS>
 		<dependency-check-failBuildOnAnyVulnerability>false</dependency-check-failBuildOnAnyVulnerability>
 		<dependency-check-autoUpdate>false</dependency-check-autoUpdate>
+		<dependency-check-skip>false</dependency-check-skip>
 	</properties>
 
 	<repositories>
@@ -207,6 +208,7 @@ See suppressed-cves.xml -->
 						<!-- <suppressionFiles>
 								<suppressionFile>suppressed-cves.xml</suppressionFile>
 						</suppressionFiles> -->
+						<skip>${dependency-check-skip}</skip>
 						<autoUpdate>${dependency-check-autoUpdate}</autoUpdate>
 						<failBuildOnCVSS>${dependency-check-failBuildOnCVSS}</failBuildOnCVSS>
 						<failBuildOnAnyVulnerability>${dependency-check-failBuildOnAnyVulnerability}</failBuildOnAnyVulnerability>
